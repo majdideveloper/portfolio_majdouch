@@ -4,6 +4,9 @@ final Uri urlEmail = Uri.parse('mailto:majdiaribi@outlook.com?');
 final Uri urlCv = Uri.parse(
     'https://drive.google.com/file/d/1A8QNia1QN2j_E6qXwXOrrmAHRDWN1u2o/view?usp=sharing');
 
+final Uri urlGithubBoxTime =
+    Uri.parse("https://github.com/majdideveloper/box_time");
+
 final Uri urlGithubKoofin =
     Uri.parse("https://github.com/majdideveloper/api_koofin");
 final Uri urlGithubSimpleShell =

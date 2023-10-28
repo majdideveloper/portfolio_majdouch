@@ -68,6 +68,17 @@ class ProjectsScreenMobile extends StatelessWidget {
                       techStack:
                           "JavaScript,Node Js, RESTful API, MongoDB,  Git, GitHub, VS Code, ",
                     ),
+                    WidgetProject(
+                      image: "assets/images/logoBoxTime.png",
+                      title: "Box Time",
+                      describtion:
+                          "Transform your day: Brain Dump, Prioritize, and Schedule with Box Time.",
+                      linkGithub: urlGithubBoxTime,
+                      linkPreView: urlPreviewKoofin,
+                      boolPreView: false,
+                      techStack:
+                          "Flutter, Dart, Provider, Git, GitHub, VS Code",
+                    ),
                   ],
                 ),
               ),
