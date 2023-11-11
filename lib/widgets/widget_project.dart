@@ -32,7 +32,7 @@ class WidgetProject extends StatelessWidget {
       borderRadius: BorderRadius.circular(16.0),
       child: Container(
         height: 540,
-        width: 250,
+        width: 300,
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [

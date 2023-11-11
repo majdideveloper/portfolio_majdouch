@@ -47,7 +47,7 @@ class ProjectsScreenMobile extends StatelessWidget {
                       techStack: "C Language, Git, Unix Shell, VS Code",
                     ),
                     WidgetProject(
-                      image: "assets/images/logobg.png",
+                      image: "assets/images/rayekcover.png",
                       title: "Rayek Social Media",
                       describtion:
                           "In our project, we implemented the Provider state-management framework, which streamlined data management. We integrated Firebase into the backend, enhancing authentication and database capabilities. Working as a team of two, we diligently resolved bugs and completed the application's development.",
@@ -69,6 +69,17 @@ class ProjectsScreenMobile extends StatelessWidget {
                           "JavaScript,Node Js, RESTful API, MongoDB,  Git, GitHub, VS Code, ",
                     ),
                     WidgetProject(
+                      image: "assets/images/portfilo.png",
+                      title: "My Porfolio",
+                      describtion:
+                          "Welcome to my Flutter-powered portfolio! 🚀 Dive into a showcase of my coding adventures and projects that reflect my passion for creating sleek, efficient, and user-friendly applications. ",
+                      linkGithub: urlGithubHolbegram,
+                      linkPreView: urlPreviewKoofin,
+                      boolPreView: false,
+                      techStack:
+                          "Flutter, Dart, Firebase, Provider, Git, GitHub, VS Code",
+                    ),
+                    WidgetProject(
                       image: "assets/images/logoBoxTime.png",
                       title: "Box Time",
                       describtion:
@@ -78,6 +89,39 @@ class ProjectsScreenMobile extends StatelessWidget {
                       boolPreView: false,
                       techStack:
                           "Flutter, Dart, Provider, Git, GitHub, VS Code",
+                    ),
+                    WidgetProject(
+                      image: "assets/images/bannerChatGBT.png",
+                      title: "Chat_gbt",
+                      describtion:
+                          "Embark on a chat-tastic journey with my API-consumed app! 🚀 This Flutter-powered gem seamlessly integrates with ChatGPT",
+                      linkGithub: urlGithubChatgbt,
+                      linkPreView: urlPreviewKoofin,
+                      boolPreView: false,
+                      techStack:
+                          "Flutter, Dart, Firebase, Provider, Git, GitHub, VS Code",
+                    ),
+                    WidgetProject(
+                      image: "assets/images/holbegram.png",
+                      title: "Holbegram",
+                      describtion:
+                          "Holbergram: My Flutter-built social app fosters seamless connections with an intuitive interface. As Flutter developer, I delved into mobile app development, crafting a user-centric experience. 📱🚀",
+                      linkGithub: urlGithubHolbegram,
+                      linkPreView: urlPreviewKoofin,
+                      boolPreView: false,
+                      techStack:
+                          "Flutter, Dart, Firebase, Provider, Git, GitHub, VS Code",
+                    ),
+                    WidgetProject(
+                      image: "assets/images/ecommerce_getx.png",
+                      title: "Ecommerce with Getx",
+                      describtion:
+                          "Step into the world of our snazzy E-commerce app, where shopping meets simplicity and security! Thanks to GetX, navigating through states is a breeze, making development a joyride. Powered by Firebase,",
+                      linkGithub: urlGithubEcommerce,
+                      linkPreView: urlPreviewKoofin,
+                      boolPreView: false,
+                      techStack:
+                          "Flutter, Dart, Firebase, Getx, Git, GitHub, VS Code",
                     ),
                   ],
                 ),
