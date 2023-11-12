@@ -68,7 +68,7 @@ class HomeScreenMobile extends StatelessWidget {
             ],
           ),
           smallPaddingVert,
-          Center(child: const ButtonResume()),
+           const Center(child: const ButtonResume()),
           smallPaddingVert,
           Center(child: SocialMediaWidget()),
         ],

@@ -28,3 +28,5 @@ final Uri urlGithubRayek = Uri.parse("https://github.com/majdideveloper/rayek");
 final Uri urlPreviewKoofin = Uri.parse(
     "https://medium.com/@5004_52812/hack-4-track-hackathon-69e013355e9b");
 final Uri urlPreviewRayek = Uri.parse("https://ouhana.wixsite.com/rayek");
+final Uri urlPreviewBoxTime = Uri.parse(
+    "https://play.google.com/store/apps/details?id=com.majdouch.boxtime");

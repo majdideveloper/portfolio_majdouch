@@ -85,8 +85,8 @@ class ProjectsScreenMobile extends StatelessWidget {
                       describtion:
                           "Transform your day: Brain Dump, Prioritize, and Schedule with Box Time.",
                       linkGithub: urlGithubBoxTime,
-                      linkPreView: urlPreviewKoofin,
-                      boolPreView: false,
+                      linkPreView: urlPreviewBoxTime,
+                      boolPreView: true,
                       techStack:
                           "Flutter, Dart, Provider, Git, GitHub, VS Code",
                     ),
