@@ -21,11 +21,11 @@ class HomeScreenMobile extends StatelessWidget {
         children: [
           WidgetImageHome(size: MediaQuery.of(context).size.width / 2),
           smallPaddingVert,
-          Text(
+          const Text(
             "Hi 👋,",
             style: boldTitleStyle,
           ),
-          Text(
+          const Text(
             "My Name is",
             style: boldTitleStyle,
           ),
@@ -34,12 +34,12 @@ class HomeScreenMobile extends StatelessWidget {
             style: const TextStyle(
               fontSize: 36.0,
             ),
-            colors: [
+            colors: const [
               blueColorGra,
               roseColorGra,
             ],
           ),
-          Text(
+          const Text(
             "Nickname",
             style: boldTitleStyle,
           ),
@@ -48,12 +48,12 @@ class HomeScreenMobile extends StatelessWidget {
             style: const TextStyle(
               fontSize: 36.0,
             ),
-            colors: [
+            colors: const [
               blueColorGra,
               roseColorGra,
             ],
           ),
-          Text(
+          const Text(
             "I build things for",
             style: boldTitleStyle,
           ),
@@ -62,7 +62,7 @@ class HomeScreenMobile extends StatelessWidget {
             style: const TextStyle(
               fontSize: 36.0,
             ),
-            colors: [
+            colors: const [
               blueColorGra,
               roseColorGra,
             ],

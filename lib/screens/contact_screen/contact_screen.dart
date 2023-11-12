@@ -18,7 +18,7 @@ class ContactScreenMobile extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Center(
+          const Center(
             child: Text(
               "For any questions or collaboration please mail us :",
               style: boldTitleStyle,
@@ -32,14 +32,14 @@ class ContactScreenMobile extends StatelessWidget {
                 fontSize: 36.0,
               ),
               textAlign: TextAlign.center,
-              colors: [
+              colors: const [
                 blueColorGra,
                 roseColorGra,
               ],
             ),
           ),
           smallPaddingVert,
-          Center(child: const ButtonResume()),
+          const Center(child: ButtonResume()),
           smallPaddingVert,
           Center(child: SocialMediaWidget()),
         ],

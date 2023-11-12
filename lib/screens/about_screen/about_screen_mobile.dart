@@ -9,10 +9,8 @@ class AboutScreenMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 32, vertical: 32),
+      padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 32),
       child: ListView(
-        // crossAxisAlignment: CrossAxisAlignment.start,
-        // mainAxisAlignment: MainAxisAlignment.center,
         children: const [
           Text(
             "About Me",
@@ -44,7 +42,7 @@ class AboutScreenMobile extends StatelessWidget {
             type: "Full_time",
           ),
           mediumPaddingVert,
-          const Text(
+          Text(
             "Education",
             style: boldTitleStyle,
           ),

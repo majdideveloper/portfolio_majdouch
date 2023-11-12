@@ -9,8 +9,6 @@ import 'package:provider/provider.dart';
 import '../provider/navigation_provider.dart';
 import '../screens/contact_screen/contact_screen.dart';
 import '../screens/projects_screen/projects_screen_mobile.dart';
-import '../widgets/button_resume.dart';
-import '../widgets/social_media_widget.dart';
 
 class MyMobileBody extends StatefulWidget {
   const MyMobileBody({Key? key}) : super(key: key);
@@ -63,7 +61,7 @@ class _MyMobileBodyState extends State<MyMobileBody> {
           type: BottomNavigationBarType.fixed,
           selectedIconTheme: IconThemeData(color: blueColor),
           unselectedIconTheme: IconThemeData(color: Colors.grey[400]),
-          items: [
+          items: const [
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.account_circle,

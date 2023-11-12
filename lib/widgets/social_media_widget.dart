@@ -28,17 +28,17 @@ class SocialMediaWidget extends StatelessWidget {
           tooltip: "Github",
         ),
         ItemSocialMediaLink(
-          link: urlGithub,
+          link: urlTiktok,
           icon: FontAwesomeIcons.tiktok,
           tooltip: "Tiktok",
         ),
         ItemSocialMediaLink(
-          link: urlGithub,
+          link: urlInstagram,
           icon: FontAwesomeIcons.instagram,
           tooltip: "Instagram",
         ),
         ItemSocialMediaLink(
-          link: urlGithub,
+          link: urlYoutube,
           icon: FontAwesomeIcons.youtube,
           tooltip: "Youtube",
         ),

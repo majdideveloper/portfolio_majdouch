@@ -15,7 +15,7 @@ class WidgetImageHome extends StatelessWidget {
       height: size,
       width: size,
       padding: const EdgeInsets.all(6.0),
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         shape: BoxShape.circle,
         gradient: LinearGradient(
           begin: Alignment.topLeft,

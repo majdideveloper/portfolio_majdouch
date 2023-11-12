@@ -1,6 +1,9 @@
 final Uri urlLinkedin = Uri.parse('https://www.linkedin.com/in/aribimajdi');
 final Uri urlGithub = Uri.parse('https://github.com/majdideveloper');
-final Uri urlYoutube = Uri.parse('https://github.com/majdideveloper');
+final Uri urlYoutube =
+    Uri.parse('https://www.youtube.com/channel/UCuX1Dc5Bz3rrER49IZk8-Cg');
+final Uri urlInstagram = Uri.parse('https://www.instagram.com/dev.majdi/');
+final Uri urlTiktok = Uri.parse('https://www.tiktok.com/@majdideveloper');
 final Uri urlEmail = Uri.parse('mailto:majdiaribi@outlook.com?');
 final Uri urlCv = Uri.parse(
     'https://drive.google.com/file/d/1A8QNia1QN2j_E6qXwXOrrmAHRDWN1u2o/view?usp=sharing');

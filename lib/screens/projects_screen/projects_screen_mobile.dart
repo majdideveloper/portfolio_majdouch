@@ -11,19 +11,19 @@ class ProjectsScreenMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 50, left: 32, right: 32, bottom: 50),
+      padding: const EdgeInsets.only(top: 50, left: 32, right: 32, bottom: 50),
       child: ListView(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 "Projects",
                 style: boldTitleStyle,
               ),
               microPaddingVert,
-              Text(
+              const Text(
                 "Things I've built so far",
                 style: textStyle,
               ),
@@ -73,7 +73,7 @@ class ProjectsScreenMobile extends StatelessWidget {
                       title: "My Porfolio",
                       describtion:
                           "Welcome to my Flutter-powered portfolio! 🚀 Dive into a showcase of my coding adventures and projects that reflect my passion for creating sleek, efficient, and user-friendly applications. ",
-                      linkGithub: urlGithubHolbegram,
+                      linkGithub: urlGithubMyPortfilo,
                       linkPreView: urlPreviewKoofin,
                       boolPreView: false,
                       techStack:
@@ -91,7 +91,7 @@ class ProjectsScreenMobile extends StatelessWidget {
                           "Flutter, Dart, Provider, Git, GitHub, VS Code",
                     ),
                     WidgetProject(
-                      image: "assets/images/bannerChatGBT.png",
+                      image: "assets/images/bannerchatgbt.png",
                       title: "Chat_gbt",
                       describtion:
                           "Embark on a chat-tastic journey with my API-consumed app! 🚀 This Flutter-powered gem seamlessly integrates with ChatGPT",

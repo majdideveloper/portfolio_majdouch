@@ -24,11 +24,11 @@ class HomeScreenDesktop extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 smallPaddingVert,
-                Text(
+                const Text(
                   "Hi 👋,",
                   style: boldTitleStyle,
                 ),
-                Text(
+                const Text(
                   "My Name is",
                   style: boldTitleStyle,
                 ),
@@ -42,7 +42,7 @@ class HomeScreenDesktop extends StatelessWidget {
                     Colors.red,
                   ],
                 ),
-                Text(
+                const Text(
                   "nickname",
                   style: boldTitleStyle,
                 ),
@@ -56,7 +56,7 @@ class HomeScreenDesktop extends StatelessWidget {
                     Colors.red,
                   ],
                 ),
-                Text(
+                const Text(
                   "I build things for",
                   style: boldTitleStyle,
                 ),

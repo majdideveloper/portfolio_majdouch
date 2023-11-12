@@ -1,37 +1,14 @@
-<div align="center">
+
 
   
-  <h1>Portfolio</h1>
-  <img src="assets/images/porfilo.png" >
+  <center><h1>Portfolio Majdouch</h1>
+  <img src="assets/images/Linux-Terminal-icon.png" >
+  </center>
   
   
-<!-- Badges -->
-<p>
- 
- <a href="https://github.com/majdideveloper/my_own_chatGBT/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/majdideveloper/my_own_chatGBT" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/majdideveloper/my_own_chatGBT" alt="last update" />
-  </a>
-  <a href="https://github.com/majdideveloper/my_own_chatGBT/issues/">
-    <img src="https://img.shields.io/github/issues/majdideveloper/my_own_chatGBT" alt="open issues" />
-  </a>
-  <a href="https://github.com/majdideveloper/my_own_chatGBT/pulls?q=is%3Apr+is%3Aclosed/">
-    <img src="https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg?style=flat" alt="pull request" />
-  </a>
-</p>
+
    
-<h4>
-    <a href="https://github.com/majdideveloper/my_own_chatGBT/">Introduction</a>
-  <span> · </span>
-    <a href="https://github.com/majdideveloper/my_own_chatGBT">Instalation</a>
-  <span> · </span>
-    <a href="https://github.com/majdideveloper/my_own_chatGBT/issues/">Usage</a>
-  <span> · </span>
-    <a href="https://github.com/majdideveloper/my_own_chatGBT/issues/">Contribution</a>
-  </h4>
-</div>
+
 
 
 
@@ -41,7 +18,7 @@
 
 
 ## Introduction:
-With this Flutter app, you can engage in natural language conversations with OpenAI's ChatGPT API through an intuitive and user-friendly interface. Simply type in your queries, and let the app take care of the rest.
+Welcome to my world of responsive wonders! 🌐✨ In my portfolio, I've crafted a dynamic showcase of diverse projects, each a testament to my commitment to responsive design and innovative solutions. From mobile-friendly apps to desktop delights, every project is a journey into the realm of seamless user experiences. Whether it's creating captivating visuals, optimizing for various screen sizes, or ensuring smooth navigation, my portfolio is a testament to the art of responsiveness. Join me on this adventure where design meets functionality, and every project is a pixel-perfect testament to the power of responsive design! 📱💻🚀
 
 
 
@@ -50,7 +27,7 @@ With this Flutter app, you can engage in natural language conversations with Ope
 ## :wrench: Instalation:
 Clone the repo
 ```
-git clone https://github.com/majdideveloper/my_own_chatGBT.git
+git clone https://github.com/majdideveloper/portfolio_majdouch.git
 ```
 
 ## Libraries & Tools Used.
@@ -60,22 +37,21 @@ git clone https://github.com/majdideveloper/my_own_chatGBT.git
 - [animated_text_kit](https://pub.dev/packages/animated_text_kit)
 
 
+
 ## App Screenshot
-<img src="assets/images/s1.png" width="250"> <img src="assets/images/s2.png" width="250"> <img src="assets/images/s3.png" width="250">
+Link Preview:https://majdiaribi.web.app
+
+<img src="assets/images/screenshot1.png">
+<img src="assets/images/screenshot2.png">
+<img src="assets/images/screenshot3.png">
+<img src="assets/images/screenshot4.png">
+<img src="assets/images/screenshot5.png">
+<img src="assets/images/screenshot6.png">
 
 
+## Video
+[Video Youtube](https://youtu.be/jCKrMfXlt_E?si=s4cG867HqlcBhqdY)
 
 
-## Contribution
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-  1. Fork the Project
-  2. Create your Feature Branch ```git checkout -b feature/my_own_chatGBT```
-  3. Commit your Changes ```git commit -m 'Add some my_own_chatGBT'```
-  4. Push to the Branch ```git push origin feature/AmazingFeature```
-  5. Open a Pull Request
 
 

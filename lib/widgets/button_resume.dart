@@ -23,7 +23,7 @@ class ButtonResume extends StatelessWidget {
           onPressed: () {
             _launchUrl(urlCv);
           },
-          child: Row(
+          child: const Row(
             children: [
               Icon(
                 Icons.picture_as_pdf,

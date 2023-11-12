@@ -40,10 +40,10 @@ class WidgetProject extends StatelessWidget {
               color: Colors.grey.withOpacity(0.2), // Color of the shadow
               spreadRadius: 5, // Spread radius of the shadow
               blurRadius: 3, // Blur radius of the shadow
-              offset: Offset(0, 3), // Offset of the shadow
+              offset: const Offset(0, 3), // Offset of the shadow
             ),
           ],
-          borderRadius: BorderRadius.all(
+          borderRadius: const BorderRadius.all(
             Radius.circular(16),
           ),
         ),
@@ -87,7 +87,7 @@ class WidgetProject extends StatelessWidget {
                       boolPreView
                           ? Row(
                               children: [
-                                FaIcon(FontAwesomeIcons.link),
+                                const FaIcon(FontAwesomeIcons.link),
                                 TextButton(
                                     onPressed: () {
                                       _launchUrl(linkPreView);

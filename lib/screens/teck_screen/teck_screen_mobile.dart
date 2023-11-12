@@ -16,12 +16,12 @@ class TeckScreenMobile extends StatelessWidget {
         // crossAxisAlignment: CrossAxisAlignment.start,
         // mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Text(
+          const Text(
             "My Tech Stack",
             style: boldTitleStyle,
           ),
           smallPaddingVert,
-          Text(
+          const Text(
             "Technologies I've been working with recently",
             style: textStyle,
           ),

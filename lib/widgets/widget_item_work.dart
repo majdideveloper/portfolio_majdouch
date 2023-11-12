@@ -45,7 +45,8 @@ class WidgetItemWork extends StatelessWidget {
                     borderRadius: BorderRadius.circular(50.0),
                     color: Colors.blue,
                   ),
-                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 0),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 8, vertical: 0),
                   child: Text(type),
                 ),
                 microPaddingHor,
@@ -69,7 +70,7 @@ class WidgetItemWork extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Icon(Icons.location_on),
+                        const Icon(Icons.location_on),
                         Text(place),
                       ],
                     ),
@@ -77,21 +78,9 @@ class WidgetItemWork extends StatelessWidget {
                 ),
               ],
             ),
-            // Column(
-            //   children: [
-            //     Row(
-            //       children: [
-            //         Icon(Icons.date_range_outlined),
-            //         Text(
-            //           "Sep 2021 - Dec 2021",
-            //         ),
-            //       ],
-            //     ),
-            //   ],
-            // ),
           ],
         ),
-        Divider(),
+        const Divider(),
       ],
     );
   }

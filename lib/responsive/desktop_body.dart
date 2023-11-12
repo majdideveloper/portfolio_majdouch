@@ -6,11 +6,9 @@ import 'package:provider/provider.dart';
 import '../provider/navigation_provider.dart';
 import '../screens/about_screen/about_screen_mobile.dart';
 import '../screens/contact_screen/contact_screen.dart';
-import '../screens/home_screen/home_screen_mobile.dart';
+
 import '../screens/projects_screen/projects_screen_mobile.dart';
 import '../screens/teck_screen/teck_screen_mobile.dart';
-import '../widgets/button_resume.dart';
-import '../widgets/social_media_widget.dart';
 
 class MyDesktopBody extends StatefulWidget {
   const MyDesktopBody({Key? key}) : super(key: key);
