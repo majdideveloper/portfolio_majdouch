@@ -31,7 +31,7 @@ class WidgetProject extends StatelessWidget {
       elevation: 10,
       borderRadius: BorderRadius.circular(16.0),
       child: Container(
-        height: 540,
+        height: 580,
         width: 300,
         decoration: BoxDecoration(
           color: Colors.white,
@@ -95,10 +95,10 @@ class WidgetProject extends StatelessWidget {
                                     child: const Text("Live Preview"))
                               ],
                             )
-                          : SizedBox(),
+                          : const SizedBox(),
                       Row(
                         children: [
-                          FaIcon(FontAwesomeIcons.github),
+                          const FaIcon(FontAwesomeIcons.github),
                           TextButton(
                               onPressed: () {
                                 _launchUrl(linkGithub);

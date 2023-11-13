@@ -80,7 +80,7 @@ class ProjectsScreenMobile extends StatelessWidget {
                           "Flutter, Dart, Firebase, Provider, Git, GitHub, VS Code",
                     ),
                     WidgetProject(
-                      image: "assets/images/logoBoxTime.png",
+                      image: "assets/images/boxtime_portfolio.png",
                       title: "Box Time",
                       describtion:
                           "Transform your day: Brain Dump, Prioritize, and Schedule with Box Time.",
